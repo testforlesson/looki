@@ -1,0 +1,232 @@
+.container {
+  width: 1560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.deliv {
+  width: 1296px;
+  height: 173px;
+  background-color: #5A5AC9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 18px;
+  margin: 80px 111px;
+}
+.deliv__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.deliv__item--img {
+  width: 56px;
+  height: 45px;
+}
+.deliv__item--wrap {
+  display: flex;
+  flex-direction: column;
+}
+.deliv__item--wrap__heading {
+  color: white;
+}
+.deliv__item--wrap__text {
+  color: white;
+}
+
+.container {
+  width: 1560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.products {
+  width: 1440px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid blue;
+}
+.products__top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 43px;
+}
+.products__top--heading2 {
+  color: #111;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.5px;
+  text-transform: capitalize;
+}
+.products__top--span {
+  width: 60px;
+  height: 2px;
+  background: #5A5AC9;
+  align-self: center;
+}
+.products__top--text {
+  color: #565656;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.01px;
+}
+.products__top--btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.products__top--btns > button {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: #5A5AC9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+.products__bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.products__bottomnew__products {
+  background-color: green;
+}
+
+.new__products {
+  width: 300px;
+  height: 458px;
+  position: relative;
+  background-color: red;
+}
+.new__products__new {
+  position: absolute;
+  display: flex;
+  display: flex;
+  padding: 4.6px 4.963px 5.4px 5px;
+  align-items: flex-start;
+  right: 10px;
+  top: 10px;
+  background: #5A5AC9;
+}
+
+.container {
+  width: 1560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 1519px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: blue;
+  align-items: center;
+}
+.nav__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 240px;
+  height: 60px;
+  gap: 25px;
+  margin-right: 52px;
+}
+.nav__left--item {
+  text-decoration: none;
+}
+.nav__left--item > img {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+.nav__right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav__right--left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.nav__right--left > img {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+.nav__right--left > a {
+  text-decoration: none;
+  color: white;
+}
+.nav__right--right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.nav__right--right__setting {
+  color: white;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 14px;
+  text-transform: capitalize;
+}
+.nav__right--right__currency, .nav__right--right__lang {
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
